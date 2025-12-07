@@ -1,0 +1,14 @@
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/CreateUserWithPOJO/CreateUserUsingPOJOTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/CreateUserWithPOJO/User.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/CreateUserWithPostAPI/CreateUserAPITest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/DeleteUserWithPOJO/DeleteUserUsingPOJOTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GETAPIWithNonBDD/GetContactsAPITest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GetAPIwithBDD/ContactsAPITest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GetAPIwithBDD/GetRestAPIBDDTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GetAPIwithBDD/GetUserWithPathParam.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GetAPIwithBDD/GetUserWithQueryParam.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/GetAPIwithBDD/GoRestAPIsTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/POSTAPITests/CreateUserAPITest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/POSTAPIWithDifferentBodyTypes/POSTAPIWithDifferentBodyTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/UpdateUserWithPOJO/UpdateUserUsingPOJOTest.java
+/Users/v0l00xk/eclipse-workspace/JulyAPI2025RestAssured/src/test/java/UpdateUserWithPOJO/User.java

@@ -1,0 +1,14 @@
+CreateUserWithPOJO/User.class
+GetAPIwithBDD/ContactsAPITest.class
+CreateUserWithPOJO/CreateUserUsingPOJOTest.class
+UpdateUserWithPOJO/UpdateUserUsingPOJOTest.class
+GETAPIWithNonBDD/GetContactsAPITest.class
+POSTAPIWithDifferentBodyTypes/POSTAPIWithDifferentBodyTest.class
+GetAPIwithBDD/GoRestAPIsTest.class
+POSTAPITests/CreateUserAPITest.class
+DeleteUserWithPOJO/DeleteUserUsingPOJOTest.class
+GetAPIwithBDD/GetRestAPIBDDTest.class
+GetAPIwithBDD/GetUserWithQueryParam.class
+CreateUserWithPostAPI/CreateUserAPITest.class
+UpdateUserWithPOJO/User.class
+GetAPIwithBDD/GetUserWithPathParam.class

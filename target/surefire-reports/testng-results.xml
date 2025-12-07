@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="19" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-04T20:14:58 IST" name="Surefire suite" finished-at="2025-10-04T20:15:38 IST" duration-ms="39961">
+    <groups>
+    </groups>
+    <test started-at="2025-10-04T20:14:58 IST" name="Surefire test" finished-at="2025-10-04T20:15:38 IST" duration-ms="39961">
+      <class name="GetAPIwithBDD.GoRestAPIsTest">
+        <test-method signature="getAllUsersTest()[pri:0, instance:GetAPIwithBDD.GoRestAPIsTest@58134517]" started-at="2025-10-04T20:15:35 IST" name="getAllUsersTest" finished-at="2025-10-04T20:15:35 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsersTest -->
+        <test-method signature="getSingleUsersTest()[pri:0, instance:GetAPIwithBDD.GoRestAPIsTest@58134517]" started-at="2025-10-04T20:15:35 IST" name="getSingleUsersTest" finished-at="2025-10-04T20:15:36 IST" duration-ms="676" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at GetAPIwithBDD.GoRestAPIsTest.getSingleUsersTest(GoRestAPIsTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUsersTest -->
+      </class> <!-- GetAPIwithBDD.GoRestAPIsTest -->
+      <class name="DeleteUserWithPOJO.DeleteUserUsingPOJOTest">
+        <test-method signature="updateUserTest()[pri:0, instance:DeleteUserWithPOJO.DeleteUserUsingPOJOTest@b7f23d9]" started-at="2025-10-04T20:14:58 IST" name="updateUserTest" finished-at="2025-10-04T20:15:01 IST" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- DeleteUserWithPOJO.DeleteUserUsingPOJOTest -->
+      <class name="POSTAPITests.CreateUserAPITest">
+        <test-method signature="createUserWithJsonFileTest()[pri:0, instance:POSTAPITests.CreateUserAPITest@4450d156]" started-at="2025-10-04T20:15:36 IST" name="createUserWithJsonFileTest" finished-at="2025-10-04T20:15:36 IST" duration-ms="430" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <422>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <422>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at POSTAPITests.CreateUserAPITest.createUserWithJsonFileTest(CreateUserAPITest.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithJsonFileTest -->
+        <test-method signature="createUserWithJsonFileWithEmailReplacementTest()[pri:0, instance:POSTAPITests.CreateUserAPITest@4450d156]" started-at="2025-10-04T20:15:36 IST" name="createUserWithJsonFileWithEmailReplacementTest" finished-at="2025-10-04T20:15:37 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithJsonFileWithEmailReplacementTest -->
+        <test-method signature="createUserWithJsonStringTest()[pri:0, instance:POSTAPITests.CreateUserAPITest@4450d156]" started-at="2025-10-04T20:15:37 IST" name="createUserWithJsonStringTest" finished-at="2025-10-04T20:15:37 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserWithJsonStringTest -->
+      </class> <!-- POSTAPITests.CreateUserAPITest -->
+      <class name="GETAPIWithNonBDD.GetContactsAPITest">
+        <test-method signature="getContactsTest()[pri:0, instance:GETAPIWithNonBDD.GetContactsAPITest@345965f2]" started-at="2025-10-04T20:15:04 IST" name="getContactsTest" finished-at="2025-10-04T20:15:06 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactsTest -->
+      </class> <!-- GETAPIWithNonBDD.GetContactsAPITest -->
+      <class name="CreateUserWithPostAPI.CreateUserAPITest">
+        <test-method signature="createAUserTest()[pri:0, instance:CreateUserWithPostAPI.CreateUserAPITest@4461c7e3]" started-at="2025-10-04T20:15:37 IST" name="createAUserTest" finished-at="2025-10-04T20:15:38 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAUserTest -->
+      </class> <!-- CreateUserWithPostAPI.CreateUserAPITest -->
+      <class name="CreateUserWithPOJO.CreateUserUsingPOJOTest">
+        <test-method signature="createUserTest()[pri:0, instance:CreateUserWithPOJO.CreateUserUsingPOJOTest@5a4aa2f2]" started-at="2025-10-04T20:15:01 IST" name="createUserTest" finished-at="2025-10-04T20:15:02 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- CreateUserWithPOJO.CreateUserUsingPOJOTest -->
+      <class name="GetAPIwithBDD.GetRestAPIBDDTest">
+        <test-method signature="authTest()[pri:0, instance:GetAPIwithBDD.GetRestAPIBDDTest@4d49af10]" started-at="2025-10-04T20:15:28 IST" name="authTest" finished-at="2025-10-04T20:15:28 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authTest -->
+        <test-method signature="getSingleUserTest()[pri:0, instance:GetAPIwithBDD.GetRestAPIBDDTest@4d49af10]" started-at="2025-10-04T20:15:28 IST" name="getSingleUserTest" finished-at="2025-10-04T20:15:29 IST" duration-ms="518" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at GetAPIwithBDD.GetRestAPIBDDTest.getSingleUserTest(GetRestAPIBDDTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUserTest -->
+      </class> <!-- GetAPIwithBDD.GetRestAPIBDDTest -->
+      <class name="POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest">
+        <test-method signature="bodyWithFormDataMultipPartTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:06 IST" name="bodyWithFormDataMultipPartTest" finished-at="2025-10-04T20:15:10 IST" duration-ms="4339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithFormDataMultipPartTest -->
+        <test-method signature="bodyWithHTMLTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:10 IST" name="bodyWithHTMLTest" finished-at="2025-10-04T20:15:13 IST" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithHTMLTest -->
+        <test-method signature="bodyWithJSONTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:13 IST" name="bodyWithJSONTest" finished-at="2025-10-04T20:15:13 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithJSONTest -->
+        <test-method signature="bodyWithSingleCSVFileTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:13 IST" name="bodyWithSingleCSVFileTest" finished-at="2025-10-04T20:15:17 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithSingleCSVFileTest -->
+        <test-method signature="bodyWithSinglePDFFileTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:17 IST" name="bodyWithSinglePDFFileTest" finished-at="2025-10-04T20:15:21 IST" duration-ms="3799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithSinglePDFFileTest -->
+        <test-method signature="bodyWithSingleXLSxFileTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:21 IST" name="bodyWithSingleXLSxFileTest" finished-at="2025-10-04T20:15:24 IST" duration-ms="2915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithSingleXLSxFileTest -->
+        <test-method signature="bodyWithTextTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:24 IST" name="bodyWithTextTest" finished-at="2025-10-04T20:15:26 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithTextTest -->
+        <test-method signature="bodyWithXMLTest()[pri:0, instance:POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest@429bd883]" started-at="2025-10-04T20:15:26 IST" name="bodyWithXMLTest" finished-at="2025-10-04T20:15:28 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bodyWithXMLTest -->
+      </class> <!-- POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest -->
+      <class name="UpdateUserWithPOJO.UpdateUserUsingPOJOTest">
+        <test-method signature="updateUserTest()[pri:0, instance:UpdateUserWithPOJO.UpdateUserUsingPOJOTest@6591f517]" started-at="2025-10-04T20:15:02 IST" name="updateUserTest" finished-at="2025-10-04T20:15:04 IST" duration-ms="1990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- UpdateUserWithPOJO.UpdateUserUsingPOJOTest -->
+      <class name="GetAPIwithBDD.ContactsAPITest">
+        <test-method signature="getAllContactsTest()[pri:0, instance:GetAPIwithBDD.ContactsAPITest@279ad2e3]" started-at="2025-10-04T20:15:29 IST" name="getAllContactsTest" finished-at="2025-10-04T20:15:31 IST" duration-ms="1972" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <401>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <401>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at GetAPIwithBDD.ContactsAPITest.getAllContactsTest(ContactsAPITest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllContactsTest -->
+        <test-method signature="getAuthErrorMessageTest()[pri:0, instance:GetAPIwithBDD.ContactsAPITest@279ad2e3]" started-at="2025-10-04T20:15:31 IST" name="getAuthErrorMessageTest" finished-at="2025-10-04T20:15:33 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthErrorMessageTest -->
+        <test-method signature="getAuthErrorTest()[pri:0, instance:GetAPIwithBDD.ContactsAPITest@279ad2e3]" started-at="2025-10-04T20:15:33 IST" name="getAuthErrorTest" finished-at="2025-10-04T20:15:35 IST" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAuthErrorTest -->
+      </class> <!-- GetAPIwithBDD.ContactsAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
