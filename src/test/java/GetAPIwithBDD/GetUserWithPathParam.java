@@ -21,7 +21,7 @@ public class GetUserWithPathParam {
 			
 			//https://gorest.co.in/public/v2/users/8135702
 			given().log().all()
-				.header("Authorization", "Bearer 941772c939576f3e1998a1ddfb7ce810dc899247e089ef002b2f78eb32750349")
+				.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 				.pathParam("userId", 8153038)
 			.when()
 				.get("/public/v2/users/{userId}")

@@ -38,7 +38,7 @@ public class CreateUserAPITest {
 		//1. post: create a user
 		int userId = given().log().all()
 			.contentType(ContentType.JSON)
-			.header("Authorization", "Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6")
+			.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 			.body(updatedJson)
 	    .when()
 	    	.post("/public/v2/users")
@@ -54,7 +54,7 @@ public class CreateUserAPITest {
 		
 		//2. get a user by using the same userid 
 		given().log().all()
-			.header("Authorization", "Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6")
+			.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 		.when()
 			.get("/public/v2/users/"+userId)
 		.then().log().all()

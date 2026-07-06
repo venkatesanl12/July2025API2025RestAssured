@@ -18,7 +18,7 @@ public class GetUserWithQueryParam {
 	RestAssured.baseURI = "https://gorest.co.in";
 	
 	given().log().all()
-		.header("Authorization", "Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6")
+		.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 		.queryParam("name", "Ranjit")
 		.queryParam("status", "active")
 	.when()
@@ -41,7 +41,7 @@ public class GetUserWithQueryParam {
 		userQueryMap.put("gender", "male");
 		
 		given().log().all()
-			.header("Authorization", "Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6")
+			.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 			.queryParams(userQueryMap)
 		.when()
 			.get("/public/v2/users")

@@ -21,13 +21,13 @@ public class RequestResponseSpecificationConcept {
 		
 		requestSpec = given().log().all()
 						.baseUri("https://gorest.co.in")
-						.header("Authorization", "Bearer f6d59485d3d12d1df22e587ed2c283541957447b135c412bcfb79b73964a0429")
+						.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 						.header("Content-Type", "application/json");
 		
 		
 		requestQueryParamSpec = given().log().all()
 				.baseUri("https://gorest.co.in")
-				.header("Authorization", "Bearer f6d59485d3d12d1df22e587ed2c283541957447b135c412bcfb79b73964a0429")
+				.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 				.header("Content-Type", "application/json")
 				.queryParam("name", "naveen")
 				.queryParam("status", "active");

@@ -22,7 +22,7 @@ public class GoRestAPIsTest {
 		RestAssured.baseURI = "https://gorest.co.in";
 		
 		Response response =  given().log().all()
-								.header("Authorization", "Bearer 941772c939576f3e1998a1ddfb7ce810dc899247e089ef002b2f78eb32750349")
+								.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 										.when().log().all()
 											.get("/public/v2/users/8153038");
 		
@@ -69,7 +69,7 @@ public class GoRestAPIsTest {
 	RestAssured.baseURI = "https://gorest.co.in";
 	
 	Response response =  given().log().all()
-							.header("Authorization", "Bearer d0bf1714ac04c10dd2982e009d2dffe694a8e0b53af518cb7370e41e046a72f6")
+							.header("Authorization", "Bearer 5a537bba01c7d33ef75af0d5fe15d3cca1f7df54eeec9599af160e0ff9619a5c")
 									.when().log().all()
 										.get("/public/v2/users");
 	
